@@ -40,63 +40,7 @@ This project implements a full-stack AI application designed to predict develope
 - **Charting:** Recharts
 
 ## 📁 Project Structure
-
-├── backend/
-│ ├── app/
-│ │ ├── routes/
-│ │ │ ├── init.py
-│ │ │ └── prediction.py # API endpoint for predictions
-│ │ ├── services/
-│ │ │ ├── init.py
-│ │ │ └── prediction_service.py # Business logic for prediction
-│ │ ├── init.py
-│ │ └── config.py
-│ ├── data/ # Contains raw and processed datasets
-│ │ ├── 2024 Developer Survey.pdf
-│ │ ├── survey_results_processed.csv
-│ │ ├── survey_results_public.csv
-│ │ └── survey_results_schema.csv
-│ ├── model_artifacts/ # Saved ML models and preprocessing pipelines
-│ │ ├── eda_plots/ # Exploratory Data Analysis plots (155 files)
-│ │ ├── best_model_lightgbm.joblib
-│ │ ├── best_model_xgboost.joblib
-│ │ ├── best_salary_prediction_pipeline.joblib
-│ │ ├── ... (other .joblib, .json files)
-│ ├── plots/ # Training and comparison plots (20 files)
-│ ├── scripts/ # Scripts for data exploration, preparation, and training
-│ │ ├── explore_data.py
-│ │ ├── prepare_data.py
-│ │ └── train_model.py
-│ ├── .gitignore # Backend-specific ignore rules
-│ ├── requirements.txt # Python dependencies
-│ └── run.py # Script to run the Flask application
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/ # Default assets (currently empty)
-│ │ ├── components/
-│ │ │ ├── steps/
-│ │ │ │ ├── Step1.jsx
-│ │ │ │ ├── Step2.jsx
-│ │ │ │ └── Step3.jsx
-│ │ │ ├── ui/ # shadcn/ui components
-│ │ │ │ ├── accordion.jsx
-│ │ │ │ ├── button.jsx
-│ │ │ │ ├── ... (other shadcn/ui components)
-│ │ │ ├── ResultDisplay.jsx # Displays prediction results and charts
-│ │ │ └── SalaryPredictor.jsx # Main prediction form component
-│ │ ├── lib/
-│ │ │ ├── data.js # Data for user input options
-│ │ │ ├── schema.js # Form validation schemas
-│ │ │ └── utils.js # Utility functions
-│ │ ├── App.jsx # Main React application component
-│ │ ├── App.css
-│ │ └── main.jsx # React app entry point
-│ ├── .gitignore # Frontend-specific ignore rules
-│ ├── package.json # Node.js/npm dependencies
-│ └── vite.config.js
-├── .gitattributes # Git LFS configuration
-└── README.md
+<pre> ``` . ├── backend/ │ ├── app/ │ │ ├── routes/ │ │ │ ├── __init__.py │ │ │ └── prediction.py # API endpoint for predictions │ │ ├── services/ │ │ │ ├── __init__.py │ │ │ └── prediction_service.py # Business logic for prediction │ │ ├── __init__.py │ │ └── config.py │ ├── data/ # Contains raw and processed datasets │ │ ├── 2024 Developer Survey.pdf │ │ ├── survey_results_processed.csv │ │ ├── survey_results_public.csv │ │ └── survey_results_schema.csv │ ├── model_artifacts/ # Saved ML models and preprocessing pipelines │ │ ├── eda_plots/ # Exploratory Data Analysis plots (155 files) │ │ ├── best_model_lightgbm.joblib │ │ ├── best_model_xgboost.joblib │ │ ├── best_salary_prediction_pipeline.joblib │ │ ├── ... (other .joblib, .json files) │ ├── plots/ # Training and comparison plots (20 files) │ ├── scripts/ # Scripts for data exploration, preparation, and training │ │ ├── explore_data.py │ │ ├── prepare_data.py │ │ └── train_model.py │ ├── .gitignore # Backend-specific ignore rules │ ├── requirements.txt # Python dependencies │ └── run.py # Script to run the Flask application ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── assets/ # Default assets (currently empty) │ │ ├── components/ │ │ │ ├── steps/ │ │ │ │ ├── Step1.jsx │ │ │ │ ├── Step2.jsx │ │ │ │ └── Step3.jsx │ │ │ ├── ui/ # shadcn/ui components │ │ │ │ ├── accordion.jsx │ │ │ │ ├── button.jsx │ │ │ │ ├── ... (other shadcn/ui components) │ │ │ ├── ResultDisplay.jsx # Displays prediction results and charts │ │ │ └── SalaryPredictor.jsx # Main prediction form component │ │ ├── lib/ │ │ │ ├── data.js # Data for user input options │ │ │ ├── schema.js # Form validation schemas │ │ │ └── utils.js # Utility functions │ │ ├── App.jsx # Main React application component │ │ ├── App.css │ │ └── main.jsx # React app entry point │ ├── .gitignore # Frontend-specific ignore rules │ ├── package.json # Node.js/npm dependencies │ └── vite.config.js ├── .gitattributes # Git LFS configuration └── README.md ``` </pre>
 
 ## ⚙️ Installation & Setup
 
