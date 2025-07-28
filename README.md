@@ -155,35 +155,29 @@ This project utilizes [Git Large File Storage (Git LFS)](https://git-lfs.com/) f
 ### Backend Setup
 
 1.  **Navigate to the backend directory:**
-
     ```bash
     cd backend
     ```
-
 2.  **Create and activate a Python virtual environment:**
     It's highly recommended to use a virtual environment to manage dependencies for your Python projects.
-
-            - **Create virtual environment:**
-              ```bash
-              python -m venv venv
-              ```
-            - **Activate virtual environment:**
-              _ **On Windows (Command Prompt/PowerShell):**
-              `bash
-
+    - **Create virtual environment:**
+      ```bash
+      python -m venv venv
+      ```
+    - **Activate virtual environment:**
+      - **On Windows (Command Prompt/PowerShell):**
+        ```bash
         .\venv\Scripts\activate
-        `     _ **On macOS/Linux (Bash/Zsh):**
-
-    `bash
-source venv/bin/activate
-` (You'll see`(venv)` prepended to your terminal prompt, indicating the virtual environment is active.)
-
+        ```
+      - **On macOS/Linux (Bash/Zsh):**
+        `bash
+    source venv/bin/activate
+    `
+        (You'll see `(venv)` prepended to your terminal prompt, indicating the virtual environment is active.)
 3.  **Install Python dependencies:**
-
     ```bash
     pip install -r requirements.txt
     ```
-
 4.  **Run the Flask backend application:**
     ```bash
     python run.py
@@ -239,7 +233,3 @@ The `model_artifacts` folder contains the saved preprocessor and trained models,
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-```
-
-```
