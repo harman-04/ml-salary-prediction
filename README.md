@@ -127,8 +127,6 @@ This project implements a full-stack AI application designed to predict develope
 └── README.md                        # Project documentation
 ```
 
-````
-
 ## ⚙️ Installation & Setup
 
 This project utilizes [Git Large File Storage (Git LFS)](https://git-lfs.com/) for managing large machine learning model and dataset files. Please ensure you have Git LFS installed before cloning the repository.
@@ -177,8 +175,8 @@ This project utilizes [Git Large File Storage (Git LFS)](https://git-lfs.com/) f
         `     _ **On macOS/Linux (Bash/Zsh):**
 
     `bash
-    source venv/bin/activate
-    ` (You'll see`(venv)` prepended to your terminal prompt, indicating the virtual environment is active.)
+source venv/bin/activate
+` (You'll see`(venv)` prepended to your terminal prompt, indicating the virtual environment is active.)
 
 3.  **Install Python dependencies:**
 
@@ -241,4 +239,7 @@ The `model_artifacts` folder contains the saved preprocessor and trained models,
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to open issues or submit pull requests.
-````
+
+```
+
+```
