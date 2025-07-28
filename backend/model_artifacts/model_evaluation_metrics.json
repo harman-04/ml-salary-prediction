@@ -1,0 +1,50 @@
+{
+    "RandomForest": {
+        "MAE": 30952.670911058554,
+        "R2": 0.3572752580566555,
+        "RMSE": 69378.5279345865,
+        "Best_Params": {
+            "max_depth": 27,
+            "max_features": 0.8795542149013333,
+            "min_samples_leaf": 4,
+            "min_samples_split": 7,
+            "n_estimators": 341
+        }
+    },
+    "XGBoost": {
+        "MAE": 29790.56666813456,
+        "R2": 0.37260705790838444,
+        "RMSE": 68546.04249915406,
+        "Best_Params": {
+            "colsample_bytree": 0.8987566853061946,
+            "gamma": 0.06234221521788219,
+            "learning_rate": 0.08801020317667162,
+            "max_depth": 4,
+            "n_estimators": 359,
+            "reg_alpha": 0.03697089110510541,
+            "reg_lambda": 1.4695846277645586,
+            "subsample": 0.9325398470083344
+        }
+    },
+    "LightGBM": {
+        "MAE": 29359.10916837326,
+        "R2": 0.38738028289854154,
+        "RMSE": 67734.20794547822,
+        "Best_Params": {
+            "colsample_bytree": 0.7692681476866446,
+            "learning_rate": 0.04615381990390176,
+            "max_depth": 11,
+            "n_estimators": 363,
+            "num_leaves": 34,
+            "reg_alpha": 0.017336465350777208,
+            "reg_lambda": 0.03910606075732408,
+            "subsample": 0.7546708263364187
+        }
+    },
+    "Stacked Ensemble": {
+        "MAE": 29120.18845827073,
+        "R2": 0.38808041683135763,
+        "RMSE": 67695.49177850178,
+        "Best_Params": "N/A (Manual Stacked Model)"
+    }
+}
