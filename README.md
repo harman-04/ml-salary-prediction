@@ -39,7 +39,7 @@ This project implements a full-stack AI application designed to predict develope
 - **API Communication:** Axios
 - **Charting:** Recharts
 
-## 🚀 Tech Stack
+## 🚀 Technologies (with version)
 
 ### Backend (Python 3.13.4)
 
@@ -67,7 +67,7 @@ This project implements a full-stack AI application designed to predict develope
 
 ## 📁 Project Structure
 
-````text
+```text
 .
 ├── backend/                         # Backend server and ML components
 │   ├── app/                         # Flask application core
@@ -125,6 +125,10 @@ This project implements a full-stack AI application designed to predict develope
 │   └── vite.config.js               # Build configuration
 ├── .gitattributes                   # Git LFS configuration
 └── README.md                        # Project documentation
+```
+
+````
+
 ## ⚙️ Installation & Setup
 
 This project utilizes [Git Large File Storage (Git LFS)](https://git-lfs.com/) for managing large machine learning model and dataset files. Please ensure you have Git LFS installed before cloning the repository.
