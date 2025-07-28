@@ -1,25 +1,18 @@
-    # Python
-    __pycache__/
-    *.pyc
-    *.pyo
-    *.pyd
-    .Python/
-    env/
-    venv/
-    .venv/
-    *.egg-info/
-    .pytest_cache/
-    .ipynb_checkpoints/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
 
-    # Flask
-    instance/
+# Flask
+instance/
 
-    # Machine Learning
-    *.pkl
-    *.joblib
-    *.h5
-    *.pt
-    model_artifacts/
-    data/
-    .DS_Store
-    
+# Other non-tracked files
+.DS_Store
