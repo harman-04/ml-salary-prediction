@@ -39,6 +39,32 @@ This project implements a full-stack AI application designed to predict develope
 - **API Communication:** Axios
 - **Charting:** Recharts
 
+## 🚀 Tech Stack
+
+### Backend (Python 3.13.4)
+
+| Component        | Technologies/Packages              |
+| ---------------- | ---------------------------------- |
+| Framework        | Flask 2.3.3                        |
+| Machine Learning | LightGBM 4.6.0, XGBoost 3.0.2      |
+|                  | CatBoost 1.2.8, scikit-learn 1.7.1 |
+| Data Processing  | pandas 2.3.0, numpy 2.3.1          |
+| Visualization    | matplotlib 3.10.3, plotly 6.2.0    |
+|                  | seaborn 0.13.2, graphviz 0.21      |
+| Server           | Gunicorn 21.2.0                    |
+
+### Frontend (Node.js v22.17.1)
+
+| Component       | Technologies/Packages               |
+| --------------- | ----------------------------------- |
+| Framework       | React 19 + Vite 7.0.4               |
+| UI Components   | shadcn/ui                           |
+| Styling         | Tailwind CSS 4.1.11                 |
+| Form Management | React Hook Form 7.61.1 + Zod 4.0.10 |
+| Charts          | Recharts 3.1.0                      |
+| Animation       | Framer Motion 12.23.9               |
+| Icons           | Lucide React 0.526.0                |
+
 ## 📁 Project Structure
 
 ````text
